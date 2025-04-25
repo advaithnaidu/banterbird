@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #09570c;
+    padding: 20px;
+}
+
+#feed {
+    margin-top: 30px;
+
+}
+h1 {
+    border-block: 5px solid aqua;
+  }
+  
+  h2 {
+    border-block: 4px dotted rgb(255, 183, 0);
+  }
+  
+  div {
+    border-block: double;
+  }
+  div.a {
+    height: auto;
+    border: 1px solid black;
+  }
+  
+  div.b {
+    height: 50px;
+    border: 1px solid black;
+  }
+  div {
+    width: 1700px;
+    height: 30px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  div {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: padding-box;
+  }
